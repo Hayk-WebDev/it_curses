@@ -1,0 +1,182 @@
+html,body{
+       overflow-x:hidden;
+   } 
+html{scroll-behavior:smooth;}
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px #DBEAEA; 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 9px #8EFCFC; 
+}
+
+.navbar-brand{
+    background-image: url(../img/triangle.png);
+    background-size: contain;
+    height: 60px;
+    width:60px;
+    background-repeat: no-repeat;
+    border: 2px solid;
+    border-radius:50%;
+}
+.navbar-brand:hover{
+  border-color: aqua;
+    background-color: azure;
+}
+
+
+.pH{
+    height: 400px;
+ background:url(../img/david.png) center no-repeat,url(../img/triangle.png) center no-repeat;    
+  background-size: 350px 350px,350px ;  
+}
+
+.p1,.p2,.p3,.p4{height: 400px;}
+
+.p1{ 
+ background:url(../img/webDev.png) center no-repeat,url(../img/triangle.png) center no-repeat;    
+   background-size: 70%,70%;
+   
+}
+
+
+.p2{
+ background:url(../img/design.png) center no-repeat,url(../img/triangle.png) center no-repeat; 
+     background-size: 70%,70%;
+}
+
+.p3{
+ background:url(../img/seo.png) center no-repeat,url(../img/triangle.png) center no-repeat; 
+     background-size: 70%,70%;
+}
+
+.p4{
+ background:url(../img/work.png) center no-repeat,url(../img/triangle.png) center no-repeat;
+     background-size: 70%,70%;
+}
+
+.rB{
+    height: 150px;
+    width:150px;
+    margin: 0 auto;
+    object-fit: contain;
+    margin:80px auto;
+}
+
+
+.slideText{
+    position: absolute;
+    top:90%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:azure;
+ 
+}
+
+
+
+
+.rS{
+    height: 100px;
+    width:100px; 
+    border:2px solid;
+    border-radius: 50%;
+margin-bottom: 40px;
+}
+
+.rS-1{
+background-image: url(../img/avatar/1.jpg);
+    background-size: cover;
+}
+.rS-2{
+background-image: url(../img/avatar/2.jpg);
+    background-size: cover;
+}
+.rS-3{
+background-image: url(../img/avatar/3.jpg);
+    background-size: cover;
+}
+.rS-4{
+background-image: url(../img/avatar/4.jpg);
+    background-size: cover;
+}
+.rS-5{
+background-image: url(../img/avatar/5.jpg);
+    background-size: cover;
+}
+.rS-6{
+background-image: url(../img/avatar/6.jpg);
+    background-size: cover;
+}
+.rS-7{
+background-image: url(../img/avatar/7.jpg);
+    background-size: cover;
+}
+.rS-8{
+background-image: url(../img/avatar/8.jpg);
+    background-size: cover;
+}
+.rS-9{
+background-image: url(../img/avatar/9.jpg);
+    background-size: cover;
+}
+.rS-10{
+background-image: url(../img/avatar/10.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+.bg-1{
+  background-image:url(../img/bg1.png);
+}
+
+.bg-2{
+ background-image:url(../img/bg2.png);  
+background-size: cover;
+}
+
+.facebook ,.instagram{
+ width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #D8E2DC;
+  
+  transition: all 0.5s ease;
+}
+
+
+.facebook:hover{
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+
+.instagram:hover{
+  border: 5px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+
+
+
+.instagram:hover .fa-instagram {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
